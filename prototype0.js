@@ -29,4 +29,4 @@ export const cards = [
         "failureMode": "deadass",
         "example": "onon"
     },
-  ];
+  ]
