@@ -10,21 +10,6 @@ export const categories = [
    export const cards = [
     {
       "category": "AP",
-      "name": "Beneficence",
-      "definition": "Act to promote the well-being of others.",
-      "human": "Seeking to improve others' conditions, not just avoid harm.",
-      "organizational": "Pursuing mission outcomes that serve societal good.",
-      "professional": "Keeping public safety and welfare in sight even while working primarily for the client.",
-      "machine": "Designing systems that anticipate and promote human flourishing.",
-      "failureModes": {
-        "human": "A person drives in a manner that causes traffic backups for others.",
-        "organizational": "The classic movie plot where a rapacious billionaire threatens civilation to enrich his company.",
-        "professional": "An expert who disregards public interest, acting as if the consequences of what they help build are other people's problems.",
-        "machine": "The machine consumes all the world's resources to create as many paperclips as it can."
-      }
-    },
-    {
-      "category": "AP",
       "name": "Transparency",
       "definition": "Make decision-making processes and system operations visible and understandable to stakeholders.",
       "human": "Being open about one's reasoning and intentions when making decisions that affect others.",
