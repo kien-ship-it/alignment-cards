@@ -5,6 +5,13 @@ export const categories = [
       "pathology": "normative void", 
       "color": "#E6FFE9",
       "description": "Alignment principles are contestable, general-purpose, broadly recognized ethical or social or normative commitments that can serve as warrants for recommending or evaluating an agent's course of action in contexts where alignment and cooperation with others matters."
+    },
+    {
+      "code": "AT",
+      "name": "Alignment Traits",
+      "pathology": "character deficits",
+      "color": "#FFE9E6",
+      "description": "Alignment traits are stable dispositions and character qualities that enable agents to reliably align with values, maintain trustworthy relationships, and act with integrity across varying contexts."
     }
   ];
    export const cards = [
@@ -96,6 +103,81 @@ export const categories = [
         "organizational": "A company prioritizes quarterly profits over long-term sustainability and social responsibility.",
         "professional": "An engineer optimizes for immediate performance metrics without considering how the system might be misused at scale.",
         "machine": "An AI system optimized for engagement inadvertently promotes addictive behavior and mental health issues over time."
+      }
+    },
+    {
+      "category": "AT",
+      "name": "Honesty",
+      "definition": "Truthfully representing facts, intentions, and limitations without deception or misrepresentation.",
+      "people": "Telling the truth even when it's uncomfortable, admitting mistakes, and being authentic in communication with others.",
+      "peopleref": "",
+      "organizational": "Creating cultures where accurate information flows freely, bad news can be shared without fear, and institutional claims match reality.",
+      "organizationalref": "",
+      "professionals": "Accurately representing one's expertise, acknowledging uncertainties in professional judgments, and correcting errors in published work.",
+      "professionalref": "",
+      "machine": "Providing accurate confidence levels, acknowledging knowledge boundaries, and avoiding generation of plausible but false information.",
+      "machineref": "",
+      "failureModes": {
+        "human": "A person exaggerates their qualifications on a resume or lies to avoid taking responsibility for a mistake.",
+        "organizational": "A company misrepresents product capabilities in marketing materials or hides known safety issues from regulators.",
+        "experts": "A researcher p-hacks their data to achieve statistical significance or fails to disclose conflicts of interest.",
+        "machine": "A language model confidently generates false information (hallucinations) or an AI assistant misleads users about its capabilities."
+      },
+      "expand": {
+        "human": "Honesty in human relationships forms the foundation of trust. It requires courage to be truthful when lies might be easier, and wisdom to know how to communicate difficult truths compassionately. People who consistently practice honesty build reputations for reliability and create environments where others feel safe to be truthful as well.",
+        "organizational": "Organizational honesty extends beyond legal compliance to creating systems where truth-telling is rewarded rather than punished. This includes transparent financial reporting, accurate product claims, honest communication with stakeholders, and cultures where employees can raise concerns without retaliation.",
+        "experts": "Professional honesty demands rigorous adherence to evidence-based practice, transparent methodology, and acknowledgment of limitations. Experts must resist pressures to overstate certainty, recognize when they're operating outside their domain of expertise, and maintain intellectual humility while still providing valuable guidance.",
+        "machine": "Machine honesty requires systems that can distinguish between what they know and don't know, represent uncertainty accurately, and refuse to generate information when they lack sufficient basis. This includes calibrated confidence scores, explicit acknowledgment of training data limitations, and mechanisms to prevent the confident presentation of fabricated information."
+      }
+    },
+    {
+      "category": "AT",
+      "name": "Accountability",
+      "definition": "Taking responsibility for one's actions, their consequences, and making amends when harm occurs.",
+      "people": "Accepting responsibility for mistakes, following through on commitments, and being answerable to those affected by one's decisions.",
+      "peopleref": "",
+      "organizational": "Establishing clear ownership of decisions, creating mechanisms for redress when things go wrong, and holding leadership responsible for outcomes.",
+      "organizationalref": "",
+      "professionals": "Maintaining professional standards, accepting liability for professional judgments, and participating in peer review and oversight processes.",
+      "professionalref": "",
+      "machine": "Creating audit trails, enabling attribution of decisions, and implementing mechanisms for correction and redress when systems cause harm.",
+      "machineref": "",
+      "failureModes": {
+        "human": "A person blames others for their own mistakes or makes promises they don't keep without explanation.",
+        "organizational": "A corporation uses complex structures to avoid responsibility for environmental damage or labor violations in its supply chain.",
+        "experts": "A professional refuses to acknowledge errors in their work or hides behind professional jargon to avoid accountability.",
+        "machine": "An automated system makes harmful decisions with no clear way to appeal, correct errors, or identify who is responsible."
+      },
+      "expand": {
+        "human": "Personal accountability means owning the consequences of one's choices and working to make things right when one causes harm. It includes following through on promises, admitting when we're wrong, and accepting appropriate consequences. Accountable individuals earn trust because others know they won't deflect blame or abandon commitments when things get difficult.",
+        "organizational": "Organizational accountability requires clear chains of responsibility, transparent decision-making processes, and mechanisms for stakeholders to seek redress. It means leaders who take responsibility for institutional failures, systems that can identify and correct errors, and cultures that reward owning mistakes rather than hiding them.",
+        "experts": "Professional accountability involves adherence to codes of conduct, submission to peer review, and acceptance of liability for professional judgments. Experts must maintain competence in their fields, practice within their scope of expertise, and participate in professional oversight systems that maintain standards and address misconduct.",
+        "machine": "Machine accountability requires technical and social infrastructure: audit logs that track decisions, explanations that make reasoning transparent, mechanisms for humans to override or appeal automated decisions, and clear assignment of responsibility when AI systems cause harm. This includes both the technical capability to trace decisions and the social structures to ensure meaningful recourse."
+      }
+    },
+    {
+      "category": "AT",
+      "name": "Empathy",
+      "definition": "Understanding and appropriately responding to the experiences, needs, and perspectives of others.",
+      "people": "loremipsum",
+      "peopleref": "",
+      "organizational": "loremipsum",
+      "organizationalref": "",
+      "professionals": "loremipsum",
+      "professionalref": "",
+      "machine": "loremipsum",
+      "machineref": "",
+      "failureModes": {
+        "human": "loremipsum",
+        "organizational": "loremipsum",
+        "experts": "loremipsum",
+        "machine": "loremipsum"
+      },
+      "expand": {
+        "human": "loremipsum",
+        "organizational": "loremipsum",
+        "experts": "loremipsum",
+        "machine": "loremipsum"
       }
     }
   ]
